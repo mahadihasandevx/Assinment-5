@@ -8,7 +8,7 @@ import Banner from "./Component/Banner";
 
 
 const playersFetch = async():Promise<Iplayer[]> =>{
-    const res = await fetch('/data.json');
+    const res = await fetch('./data.json');
     const data = await res.json();
 
      return data ;
