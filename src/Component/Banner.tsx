@@ -1,5 +1,5 @@
 
-
+import bannerImage from '../assets/banner-stack.png';
 const Banner = () => {
     return (
         <div className="container mx-auto px-6">
@@ -31,7 +31,7 @@ const Banner = () => {
                 </div>
 
                 <div>
-                    <img src="src\assets\banner-stack.png" alt="Development stack illustration" />
+                    <img src={bannerImage} alt="Development stack illustration" />
                 </div>
 
             </div>
