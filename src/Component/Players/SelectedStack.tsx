@@ -1,4 +1,4 @@
-import React from 'react';
+
 import type { Iplayer } from '../../types/playerType';
 
 interface SelectedItem {
